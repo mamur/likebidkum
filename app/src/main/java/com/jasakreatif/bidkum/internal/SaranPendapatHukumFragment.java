@@ -30,22 +30,8 @@ public class SaranPendapatHukumFragment extends Fragment {
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
      View view = inflater.inflate(R.layout.fragment_saran_pendapat_hukum, container, false);
-        FloatingActionButton fab = (FloatingActionButton) view.findViewById(R.id.fab_add);
-        fab.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent intent = new Intent(getActivity(), PendampinganActivity.class);
-                FloatingActionButton fab = (FloatingActionButton) view.findViewById(R.id.fab_add);
-                fab.setOnClickListener(new View.OnClickListener() {
-                    @Override
-                    public void onClick(View view) {
-                        Intent intent = new Intent(getActivity(), PendampinganActivity.class);
-                        startActivity(intent);
-                    }
-                });
-                startActivity(intent);
-            }
-        });
+
+     
         return view;
     }
 

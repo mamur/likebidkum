@@ -33,6 +33,9 @@
     <string name="dummy_msg">This sample PDF here &gt;&gt;\nis declared by code</string>
     <string name="zoomable_asset_on_xml">Zoomable PDF on XML Example</string>
     <string name="page_was_clicked">Page was clicked</string>
-
     <string name="pdfvp_ready_to_download">Ready to download</string>
+    <string-array name="list_tujuan">
+        <item>Pendamingan sidang kode etik</item>
+        <item>Pendampingan sidang disiplin</item>
+    </string-array>
 </resources>
