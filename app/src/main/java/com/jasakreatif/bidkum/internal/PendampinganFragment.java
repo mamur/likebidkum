@@ -21,7 +21,6 @@ import java.util.List;
 
 public class PendampinganFragment extends Fragment {
 
-    private Button testBtn;
     private Spinner tujuanSpinner;
 
     public PendampinganFragment() {
@@ -38,7 +37,7 @@ public class PendampinganFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-         View view = inflater.inflate(R.layout.fragment_pendampingan, container, false);
+        View view = inflater.inflate(R.layout.fragment_pendampingan, container, false);
         tujuanSpinner = (Spinner)view.findViewById(R.id.listTujuan);
 
        // addItemsOnSpinner2();

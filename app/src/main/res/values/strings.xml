@@ -38,4 +38,9 @@
         <item>Pendamingan sidang kode etik</item>
         <item>Pendampingan sidang disiplin</item>
     </string-array>
+
+    <string-array name="list_perkara">
+        <item>Kode Etik</item>
+        <item>Disiplin</item>
+    </string-array>
 </resources>
