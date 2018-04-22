@@ -6,12 +6,65 @@
     android:layout_marginTop="56dp"
     android:layout_height="match_parent">
 
-    <RelativeLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="bottom|end">
-        
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
 
-    </RelativeLayout>
+        <EditText
+            android:id="@+id/edtNamaAdvokasi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nama"
+            android:layout_marginBottom="10dp"/>
+
+        <EditText
+            android:id="@+id/edtPangkatAdvokasi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/edtNamaAdvokasi"
+            android:layout_marginBottom="10dp"
+            android:hint="Jabatan" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Perkara"
+            android:id="@+id/txtPerkara"/>
+
+        <Spinner
+            android:id="@+id/listpraperadilan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/list_advokasi"
+            android:layout_below="@+id/txtPerkara"
+            android:layout_marginBottom="10dp"
+            android:hint="Tujuan Pendampingan" />
+
+        <EditText
+            android:id="@+id/edtNoPerkara"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="No Perkara"
+            android:layout_marginBottom="10dp"/>
+
+        <EditText
+            android:id="@+id/edtPenggugat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Penggugat"
+            android:layout_marginBottom="10dp"/>
+
+        <EditText
+            android:id="@+id/edtIsiGugatan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Isi Gugatan"
+            android:layout_marginBottom="10dp"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Submit"/>
+    </LinearLayout>
 
 </FrameLayout>
