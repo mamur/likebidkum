@@ -1,0 +1,91 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.jasakreatif.bidkum.PageLauncherActivity">
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/background_color">
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="172dp"
+            android:text="LIKE BIDKUM PMJ"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:textColor="#FFA000"
+            />
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="600sp"
+            android:layout_height="150sp"
+            android:layout_marginBottom="40dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/dki"
+            />
+
+        <Button
+            android:id="@+id/btnLogin"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Internal Kepolisian"
+            android:textSize="15dp"
+            android:textColor="#FFA000"
+            android:layout_below="@+id/imageView"/>
+        <Button
+            android:id="@+id/btnLoginE"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Eksternal / Masyarakat"
+            android:textSize="15dp"
+            android:textColor="#FFA000"
+            android:layout_below="@+id/btnLogin"/>
+
+        <Button
+            android:id="@+id/btnPersyaratan"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Persyaratan"
+            android:textSize="15dp"
+            android:textColor="#FFA000"
+            android:layout_below="@+id/btnLoginE"/>
+
+        <Button
+            android:id="@+id/btnPanduan"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Panduan &amp; Cara Penggunaan"
+            android:textSize="15dp"
+            android:textColor="#FFA000"
+            android:layout_below="@+id/btnPersyaratan"/>
+
+        <TextView
+            android:id="@+id/textInfo"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="SISTEM PELAYANAN TERPADU BIDANG HUKUM POLDA METRO JAYA MELALUI APLIKASI LIKE BIDKUM"
+            android:layout_below="@+id/btnPanduan"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:textColor="#FFA000"
+            android:layout_marginTop="45dp"
+            android:layout_marginBottom="10dp"/>
+
+
+    </RelativeLayout>
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Copyright @2018 Polda DKI"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textColor="#FFA000"
+        android:layout_marginTop="539dp"
+        android:layout_marginBottom="10dp"
+        />
+</RelativeLayout>

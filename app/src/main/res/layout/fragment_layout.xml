@@ -1,0 +1,49 @@
+<com.jasakreatif.bidkum.internal.DashboardLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_weight="1"
+    android:background="#f8f9fe" >
+    <!--  Pendampingan -->
+
+    <Button
+        android:id="@+id/btn_pendampingan"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/ic_dashboard_black_24dp"
+        android:text="Pendampingan" />
+
+    <!--  Saran Pendapat Hukum Button -->
+    <Button
+        android:id="@+id/btn_saran_pendapat_umum"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/ic_dashboard_black_24dp"
+        android:text="Saran Pendapat Hukum" />
+
+    <!--  Advokasi Button -->
+    <Button
+        android:id="@+id/btn_advokasi"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/ic_dashboard_black_24dp"
+        android:text="Advokasi" />
+
+    <!--  Pembuatan SOP/MOU Button -->
+    <Button
+        android:id="@+id/btn_pembuatan_sopmou"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/ic_dashboard_black_24dp"
+        android:text="Pembuatan SOP/MOU" />
+
+    <!--  Kumpulan Peraturan Button -->
+    <Button
+        android:id="@+id/btn_kumpulan_peraturan"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/ic_dashboard_black_24dp"
+        android:text="Kumpulan Peraturan" />
+
+    <Button
+        android:id="@+id/btn_lainya"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/ic_dashboard_black_24dp"
+        android:text="Lainya" />
+
+</com.jasakreatif.bidkum.internal.DashboardLayout>

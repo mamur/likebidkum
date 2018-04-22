@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "462657246562",
+    "firebase_url": "https://likebidkum.firebaseio.com",
+    "project_id": "likebidkum",
+    "storage_bucket": "likebidkum.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:462657246562:android:cf152f0ec05e1dbd",
+        "android_client_info": {
+          "package_name": "com.jasakreatif.bidkum"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "462657246562-rh5epega0dbbus5ktfgatuq5b9jv6fg6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBnm0V_wQgaIJ7rzZ_WExzB2mklsbdt1Jk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
